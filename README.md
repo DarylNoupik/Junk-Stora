@@ -213,10 +213,9 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Endpoints
 <p  align="right">(<a href="#top">back to top</a>)</p>
- To backup test database create use this command :
+ ### To backup test database create use this command :
 console
-```
-curl --location --request POST '45.147.98.123:3000/ipfs/mongodb/savedata' \
+```curl --location --request POST '45.147.98.123:3000/ipfs/mongodb/savedata' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "privatekey" : [30,104,54,27,124,129,82,206,12,139,126,62,205,2,192,111,210,181,77,68,248,1,93,152,118,138,194,249,70,241,203,11,227,204,47,74,156,194,248,154,193,14,191,5,9,96,178,1,123,85,170,148,123,248,161,115,249,86,186,141,193,35,8,66],
@@ -224,9 +223,10 @@ curl --location --request POST '45.147.98.123:3000/ipfs/mongodb/savedata' \
 }'
 ```
 
-<b> To Restore test database create use this command :</b>
+### To Restore test database create use this command :
 </br>
 console
+```
 curl --location --request GET '45.147.98.123:3000/ipfs/mongodb/getdata' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -234,16 +234,18 @@ curl --location --request GET '45.147.98.123:3000/ipfs/mongodb/getdata' \
     "privatekey" : [30,104,54,27,124,129,82,206,12,139,126,61,205,2,192,111,210,181,77,68,248,0,93,152,118,138,194,249,70,241,203,11,227,204,47,74,156,194,248,154,193,14,191,5,9,96,178,1,123,85,170,148,123,248,161,115,249,86,186,141,193,35,8,66],
     "publickey": "4PGC6SU4YL4JVQIOX4CQSYFSAF5VLKUUPP4KC47ZK25I3QJDBBBB3PTV6A"
 }'
-  
+```  
   
 ### To backup test database create use this command :
 console
-```curl --location --request POST '45.147.98.123:3000/ipfs/mongodb/savedata' \
+```
+  curl --location --request POST '45.147.98.123:3000/ipfs/mongodb/savedata' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "privatekey" : [30,104,54,27,124,129,82,206,12,139,126,61,205,2,192,111,210,181,77,68,248,0,93,152,118,138,194,249,70,241,203,11,227,204,47,74,156,194,248,154,193,14,191,5,9,96,178,1,123,85,170,148,123,248,161,115,249,86,186,141,193,33,4,66],
     "publickey": "4PGC6SU4YL4JVQIOX4CQSYFSAF5VLKUUPP4KC47ZK25I3QJDBBBB3PTV6B"
-}'```
+}'
+  ```
 
 ### To Restore test database create use this command :
 console
