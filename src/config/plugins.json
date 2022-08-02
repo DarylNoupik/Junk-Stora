@@ -1,0 +1,11 @@
+
+{
+    "comments": "This file allows to manage the plugins present in the platform",
+    "plugins" : [
+        {
+            "name" : "ipfs",
+            "path": "./ipfs.js", 
+            "enabled":true
+        }
+    ]
+}
