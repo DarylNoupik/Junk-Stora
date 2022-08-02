@@ -6,14 +6,14 @@
   <p align="center">
     A database storage library for building decentralized applications
     <br />
-    <a href="https://github.com/kttm25/Junkstora/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/DarylNoupik/Junkstora/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kttm25/Junkstora/blob/master/README.md">View Demo</a>
+    <a href="https://github.com/DarylNoupik/Junkstora/blob/main/README.md">View Demo</a>
     ·
-    <a href="https://github.com/kttm25/Junkstora/issues">Report Bug</a>
+    <a href="https://github.com/DarylNoupik/Junkstora/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kttm25/Junkstora/issues">Request Feature</a>
+    <a href="https://github.com/DarylNoupik/Junkstora/issues">Request Feature</a>
   </p>
 </div>
 
