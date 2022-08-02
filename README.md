@@ -78,7 +78,7 @@ Make sure you have installed all of the following prerequisites on your developm
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-Now the plugin is available using `http://localhost:8080`
+Now the plugin is available using `http://localhost:3000`
 
 ### Available Scripts
 
